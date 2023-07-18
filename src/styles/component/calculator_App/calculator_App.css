@@ -1,0 +1,222 @@
+.Main-reg-calc-frame{
+    height: 570px;
+    width: 625px;
+    background-color: whitesmoke;
+    justify-content: center;
+    margin: auto;
+}
+
+.Main-sci-calc-frame{
+    height: 770px;
+    width: 625px;
+    background-color: whitesmoke;
+    justify-content: center;
+    margin: auto;
+}
+
+.grey_border{
+    height: 505px;
+    width: 480px;
+    margin: 55px auto;
+    border-radius: 45px;
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    border: 10px solid grey;
+    justify-content: center;
+}
+
+.sci_grey_border{
+    height: 705px;
+    width: 480px;
+    margin: 55px auto;
+    border-radius: 45px;
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    border: 10px solid grey;
+    justify-content: center;
+}
+
+.black_background{
+    margin-left: -20px;
+    margin-top: -20px;
+    height: 515px;
+    width: 492px;
+    background-color: #111112;
+    border-radius: 30px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    border: 15px solid #0e0d0d;
+    justify-content: center;
+}
+
+.sci_black_background{
+    margin-left: -20px;
+    margin-top: -20px;
+    height: 715px;
+    width: 492px;
+    background-color: #111112;
+    border-radius: 30px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    border: 15px solid #0e0d0d;
+    justify-content: center;
+}
+
+.inner_black_background{
+    height: 485px;
+    width: 475px;
+    background-color: #111112;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.sci_inner_black_background{
+    height: 685px;
+    width: 475px;
+    background-color: #111112;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.display{
+    background-color: #111112;
+    height: 140px;
+    color: #fff;
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 50px;
+    text-align: right;
+    margin-bottom: 5px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.reg-controllers, .sci-controllers{
+    background-color: #111112;
+}
+
+.sci-operators{
+    display: flex;
+    margin-left: 2px;
+}
+
+.box{
+    width: 70px;
+    height: 60px;
+    padding: 10px;
+    margin: 2px;
+    font-size: 24px;
+    background-color: rgba(229, 227, 227, 0.96);
+    color: #000;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    display: inline-table;
+}
+
+.box-operator {
+    width: 70px;
+    height: 60px;
+    padding: 10px;
+    margin: 2px;
+    font-size: 24px;
+    background-color: rgba(109, 106, 106, 0.96);;
+    color: #000;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    display: inline-table;
+}
+
+.box-equals{
+    width: 257px;
+    height: 60px;
+    padding: 10px;
+    margin: 2px;
+    font-size: 24px;
+    background-color: #ed5319;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    display: inline-table;
+}
+
+#button-equals{
+    width: 180px;
+    height: 55px;
+    padding: 10px;
+    margin: 2px;
+    font-size: 24px;
+    background-color: #ed5319;
+    color: white;
+    border-radius: 45px;
+    cursor: pointer;
+    box-shadow: 0 4px 10px rgba(1.3, 1.5, 1.5, 1.2);
+}
+
+#log-button{
+    height: 140px;
+    width: 55px;
+    padding: 10px;
+    margin: 2px;
+    font-size: 24px;
+    background-color: rgba(229, 227, 227, 0.96);
+    color: black;
+    border-radius: 45px;
+    cursor: pointer;
+    box-shadow: 0 4px 10px rgba(1.3, 1.5, 1.5, 1.2);
+}
+
+#button-C{
+    width: 55px;
+    height: 55px;
+    padding: 10px;
+    margin: 2px;
+    font-size: 24px;
+    background-color: #ed5319;
+    color: white;
+    border: 1px solid white;
+    border-radius: 45px;
+    cursor: pointer;
+    box-shadow: 0 4px 10px rgba(1.3, 1.5, 1.5, 1.2);
+}
+button {
+    width: 55px;
+    height: 55px;
+    padding: 10px;
+    margin: 2px;
+    font-size: 24px;
+    background-color: rgba(229, 227, 227, 0.96);
+    color: #000;
+    border: none;
+    border-radius: 45px;
+    cursor: pointer;
+    box-shadow: 0 4px 10px rgba(1.3, 1.5, 1.5, 1.2);
+}
+
+.button-wide {
+    grid-column: span 2;
+}
+
+.button-tall {
+    grid-row: span 2;
+}
+
+.button-double {
+    grid-column: span 2;
+    grid-row: span 2;
+}
+
+button:hover {
+    background-color: #eee;
+}
+
+button:active {
+    background-color: #ddd;
+}
+
+button:disabled {
+    background-color: #888;
+    cursor: not-allowed;
+}
